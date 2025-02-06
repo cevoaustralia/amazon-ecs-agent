@@ -10,7 +10,7 @@
 # on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
 # express or implied. See the License for the specific language governing
 # permissions and limitations under the License.
-FROM golang:1.15.14
+FROM golang:1.24rc2
 
 MAINTAINER Amazon Web Services, Inc.
 COPY fluent-logger /
